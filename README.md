@@ -35,3 +35,16 @@ For an input like:
 
 ```c
 if (a == 5) write a;
+
+The scanner will output:
+Token: IF, Line: 1  
+Token: (, Line: 1  
+Token: ID (a), Line: 1  
+Token: EQ, Line: 1  
+Token: NUM (5), Line: 1  
+Token: ), Line: 1  
+Token: WRITE, Line: 1  
+Token: ID (a), Line: 1  
+Token: ;, Line: 1
+
+
